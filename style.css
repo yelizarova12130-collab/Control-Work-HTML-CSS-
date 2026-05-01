@@ -139,3 +139,76 @@ input[type=email]::placeholder{
 .hero-image{
     margin-left: 116px;
 }
+
+/***********************************************/
+
+.Browse-the-category {
+    height: 500px;
+    background: #EFF0F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Browse-container{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Browse-category{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Browse-category h3{
+    color:  #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.Browse-category>div>a{
+    color:  #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-right: 12px;
+}
+.flex-card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background:  #FFFFFE;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 30px;
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.card{
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background:  #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-card:hover{
+    background:  #6246EA;
+    color:  #FFFFFE;
+}
