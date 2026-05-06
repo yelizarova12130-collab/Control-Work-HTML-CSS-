@@ -198,6 +198,7 @@ input[type=email]::placeholder{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    transition: 0.5s;
 }
 .card{
     width: 60px;
@@ -211,6 +212,7 @@ input[type=email]::placeholder{
 .flex-card:hover{
     background:  #6246EA;
     color:  #FFFFFE;
+    transition: 0.5s;
 }
 
 /************************************************/
@@ -276,6 +278,7 @@ input[type=email]::placeholder{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 0.5s;
 }
 
 .article-post-card:hover{
@@ -283,6 +286,7 @@ input[type=email]::placeholder{
     background: #FFFFFE;
     /* For White Background */
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    transition: 0.5s;
 }
 
 .article-card{
